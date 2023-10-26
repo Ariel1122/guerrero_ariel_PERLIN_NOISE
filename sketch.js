@@ -23,7 +23,6 @@ function draw() {
   translate(x, y); // Mover el origen de coordenadas al centro de la figura
 
   if (y < height / 2) {
-    rotate(radians(frameCount)); // Rotar el círculo
     noFill();
     stroke(r, g, b);
     strokeWeight(5);
